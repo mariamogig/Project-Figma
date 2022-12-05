@@ -14,9 +14,16 @@
         <h1 class="text-5xl font-bold ">
             Log in
         </h1>
-        <h2 class="my-5" >
+        <h2 class="my-5 text-slate-400" >
             Fill in required fields to sign in
         </h2>
+    </div>
+    <div class="grid place-items-center">
+        <label class="font-semibold" for="name"> Username </label>
+        <input class="h-10 block w-52 rounded-md border-2 border-slate-300" type="text" placeholder="username" name="username" id="username" required><br></br>
+        <label class="font-semibold" for="email"> Password </label>
+        <input class="h-10 block w-52 rounded-md border-2 border-slate-300" type="email" placeholder="password" name="password" id="password" required><br></br>
+        <button class="h-8 w-52 bg-pink-500 rounded-2xl" onclick="login()" type="button"> Log in </button>
     </div>
     </body>
 </html>
