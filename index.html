@@ -5,25 +5,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/dist/output.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
+        <title>Baleniaga</title>
     </head>
-    <header>
-
-    </header>
     <body>
-        <div class="text-center">
-        <h1 class="text-5xl font-bold ">
-            Log in
-        </h1>
-        <h2 class="my-5 text-slate-400" >
-            Fill in required fields to sign in
-        </h2>
-    </div>
-    <div class="grid place-items-center">
-        <label class="font-semibold" for="name"> Username </label>
-        <input class="h-10 block w-52 rounded-md border-2 border-slate-300" type="text" placeholder="username" name="username" id="username" required><br></br>
-        <label class="font-semibold" for="email"> Password </label>
-        <input class="h-10 block w-52 rounded-md border-2 border-slate-300" type="email" placeholder="password" name="password" id="password" required><br></br>
-        <button class="h-8 w-52 bg-pink-500 rounded-2xl" onclick="login()" type="button"> Log in </button>
-    </div>
+        <nav class="relative container mx-auto p-6"> 
+            <div class="flex items-center justify-between">
+                <div class="pt-2 w-20">
+                    <img src="image/logo2.png" alt="logo">
+                </div>
+                <div class="hidden space-x-6  md:flex">
+                    <a href="#" class="hover:text-sky-600">Product</a>
+                    <a href="#" class="hover:text-sky-600" >Pricing</a>
+                    <a href="#" class="hover:text-sky-600">About us</a>
+                    <a href="#" class="hover:text-sky-600">Careers</a>
+                    <a href="#" class="hover:text-sky-600">Community</a>
+                </div>
+                <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-red-600 hover:bg-sky-900 rounded-full baseline md:block"
+                >Get Started</a>
+                </div>
+        </nav>
+        <section id="hero">
+            <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+                <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                    <hi class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"> Open Doors to a World of Fashion </hi>
+                    <p class="max-w-sm text-center text-sky-900 md:text-left">Balenciaga SA is a luxury fashion house founded in 1919 by the Spanish designer Cristóbal Balenciaga in San Sebastian, Spain</p>
+                    <div class="flex justify-center md:justify-start">
+                        <a href="#" class="p-3 px-6 pt-2 text-white bg-red-600 hover:bg-sky-900 rounded-full baseline" >Get Started</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="image/hadid.jpg" alt="adidas">
+                </div>
+            </div>
+        </section>
     </body>
-</html>
+    </html>
